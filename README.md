@@ -4,30 +4,17 @@ Segmenting employees with K-Means clustering and PCA to uncover retention risks 
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Employee attrition is costly — this project uses unsupervised learning to identify distinct employee segments and understand which groups are most at risk of leaving. Rather than predicting who leaves, the goal is to **understand why**, and provide actionable recommendations per segment.
 
 ---
 
-## 🎯 Goal & Scope
+##  Goal & Scope
 
 - **Goal:** Identify the different types of employees at the company and understand how attrition varies across segments
 - **Approach:** Cluster employees using K-Means, visualize segments with PCA, and analyze attrition rates per cluster to generate retention recommendations
 
-
----
-
-## 🔧 Techniques Used
-
-| Technique | Purpose |
-|-----------|---------|
-| **K-Means Clustering** | Segment employees into distinct groups |
-| **Elbow Method** | Identify the optimal number of clusters via inertia |
-| **Silhouette Score** | Validate cluster quality |
-| **PCA (2D & 3D)** | Reduce dimensionality for visualization |
-| **StandardScaler** | Normalize features before clustering |
-| **Heatmaps** | Interpret cluster centers |
 
 ---
 
@@ -70,7 +57,7 @@ Employee attrition is costly — this project uses unsupervised learning to iden
 
 ---
 
-## 💡 Recommendations
+##  Recommendations
 
 **High-attrition segments to prioritize:**
 
@@ -83,18 +70,3 @@ Employee attrition is costly — this project uses unsupervised learning to iden
 - **Female employees** → Investigate what's working and replicate it across other segments
 
 ---
-
-## 🛠️ Tech Stack
-
-- Python 3
-- pandas, numpy
-- scikit-learn (KMeans, PCA, StandardScaler, silhouette_score)
-- matplotlib, seaborn
-- mpl_toolkits (3D plotting)
-
----
-
-
-## 📬 Contact
-
-Feel free to connect or reach out if you have questions or feedback!
